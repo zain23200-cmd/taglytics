@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Practice Work — Taglytics</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --navy:       #050d1f;
@@ -26,7 +26,7 @@
     --muted:      #7a9cc0;
     --sans:       'Plus Jakarta Sans', sans-serif;
     --mono:       'Space Mono', monospace;
-    --display:    'Playfair Display', serif;
+    --display:    'Syne', sans-serif;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -76,7 +76,7 @@
     font-weight: 800; line-height: 1.15; max-width: 760px;
     margin-bottom: 1.2rem; position: relative; z-index: 1; color: #fff;
   }
-  .hero-title em { font-style: italic; color: var(--cyan); text-shadow: 0 0 30px rgba(0,207,255,0.35); }
+  .hero-title em { color: var(--cyan); text-shadow: 0 0 30px rgba(0,207,255,0.35); }
   .hero-sub { font-size: 1.05rem; color: var(--muted); max-width: 520px; margin-bottom: 2rem; position: relative; z-index: 1; }
 
   .stats-bar {
@@ -93,7 +93,7 @@
   .section { padding: 5rem 2rem; max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
   .stag { font-family: var(--mono); font-size: .68rem; color: var(--cyan); letter-spacing: 2px; text-transform: uppercase; margin-bottom: .7rem; font-weight: 700; }
   .section h2 { font-family: var(--display); font-size: clamp(1.7rem, 3vw, 2.4rem); font-weight: 700; margin-bottom: .75rem; color: #fff; }
-  .section h2 em { font-style: italic; color: var(--cyan); }
+  .cyan-text { color: var(--cyan); text-shadow: 0 0 20px rgba(0,207,255,0.3); }
   .sdesc { color: var(--muted); max-width: 500px; font-size: 1rem; margin-bottom: 2.8rem; }
   .divider { width: 40px; height: 3px; background: var(--cyan); border-radius: 2px; margin-bottom: 1.4rem; box-shadow: 0 0 8px var(--cyan); }
 
@@ -160,7 +160,7 @@
 
 <div class="hero">
   <div class="badge"><div class="badge-dot"></div>Live Hands-On Practice Work</div>
-  <h1 class="hero-title">Analytics &amp; Tracking<br><em>Mastery Portfolio</em></h1>
+  <h1 class="hero-title">Analytics &amp; Tracking<br><span class="cyan-text">Mastery Portfolio</span></h1>
   <p class="hero-sub">Real screenshots from hands-on practice with GTM, GA4, Server-Side Tracking, Consent Management, Google Ads, and Looker Studio.</p>
 </div>
 
@@ -174,7 +174,7 @@
 <!-- 01 GTM & GA4 -->
 <div class="section">
   <div class="stag">// 01 — Tag Management</div>
-  <h2>GTM &amp; <em>GA4</em></h2>
+  <h2>GTM &amp; <span class="cyan-text">GA4</span></h2>
   <div class="divider"></div>
   <p class="sdesc">GTM container setup, triggers, variables, and complete GA4 event tracking implementation.</p>
   <div class="cards-grid">
@@ -193,7 +193,7 @@
 <!-- 02 Google Ads & MS Clarity -->
 <div class="section">
   <div class="stag">// 02 — Ads &amp; Heatmaps</div>
-  <h2>Google Ads &amp; <em>MS Clarity</em></h2>
+  <h2>Google Ads &amp; <span class="cyan-text">MS Clarity</span></h2>
   <div class="divider"></div>
   <p class="sdesc">Conversion tracking for Google Ads and Microsoft Clarity heatmap & session recording integration.</p>
   <div class="cards-grid">
@@ -212,7 +212,7 @@
 <!-- 03 Consent Banner -->
 <div class="section">
   <div class="stag">// 03 — Privacy &amp; Compliance</div>
-  <h2>Consent Banner &amp; <em>CMP</em></h2>
+  <h2>Consent Banner &amp; <span class="cyan-text">CMP</span></h2>
   <div class="divider"></div>
   <p class="sdesc">GDPR-compliant consent banner with Consent Mode V2 and cookie management setup.</p>
   <div class="cards-grid">
@@ -231,7 +231,7 @@
 <!-- 04 Server-Side -->
 <div class="section">
   <div class="stag">// 04 — Advanced Tracking</div>
-  <h2>Server-Side <em>Tracking</em></h2>
+  <h2>Server-Side <span class="cyan-text">Tracking</span></h2>
   <div class="divider"></div>
   <p class="sdesc">sGTM container setup, client configuration, and event forwarding — bypassing ad blockers and iOS restrictions.</p>
   <div class="cards-grid">
@@ -250,7 +250,7 @@
 <!-- 05 Data Studio -->
 <div class="section">
   <div class="stag">// 05 — Reporting</div>
-  <h2>Looker Studio &amp; <em>Dashboards</em></h2>
+  <h2>Looker Studio &amp; <span class="cyan-text">Dashboards</span></h2>
   <div class="divider"></div>
   <p class="sdesc">Custom dashboards, data source connections, and live report design using Google Looker Studio.</p>
   <div class="cards-grid">
